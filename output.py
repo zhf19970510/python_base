@@ -23,3 +23,7 @@ num02 = 22.345
 # 精确到小数点后2位 四舍五入，正确是22.35
 print('%.2f' % num02)
 print(Decimal(str(num02)).quantize(Decimal('0.00'), 'ROUND_HALF_UP'))
+
+# 第二种格式化
+my_city = '永丰'
+print(f'myname is {my_name}, my age is {my_age + 1}， my city is {my_city}')
