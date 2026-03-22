@@ -177,3 +177,4 @@ str_lst = ['hello', 'Java', 'Zoo', 'world']
 print(sorted(str_lst))  # 默认情况下，对字符串排序，是按照ASCII的大小比较的
 
 print(sorted(str_lst, key=lambda s: s.lower()))
+
