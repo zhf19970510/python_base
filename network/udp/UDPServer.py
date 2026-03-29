@@ -3,7 +3,7 @@ import socket
 # 实现，客户端和服务器的即时聊天
 
 # 创建一个UDP的socket对象
-server_socket = Socket(socket.AF_INET, socket.SOCK_STREAM)
+server_socket = Socket(socket.AF_INET, socket.SOCK_DGRAM)
 
 # IP:192.168.101.66，其他主机可以和当前服务器通信
 # IP:127.0.0.1，其他的主机不可以和当前的服务器通信，除非客户端也在本地

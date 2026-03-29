@@ -3,7 +3,7 @@ import socket
 
 
 # 创建一个UDP的socket对象
-client_socket = Socket(socket.AF_INET, socket.SOCK_STREAM)
+client_socket = Socket(socket.AF_INET, socket.SOCK_DGRAM)
 
 # 客户端的socket是不需要bind。所以由操作系统分配一个随机的端口号
 
